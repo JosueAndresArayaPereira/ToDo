@@ -68,7 +68,14 @@ function ModificarTarea(id) {
         return null;
     }
 }
-
+function EliminarTarea(){
+    for(let i = 0 ; i < tareas.length;i++){
+        if(tareas[i].id == idTarea){
+            tareas.splice(i,1)
+        }
+    }
+    Guardar();
+}
 function Guardar(){
     let datos = {
         listaTareas: tareas
