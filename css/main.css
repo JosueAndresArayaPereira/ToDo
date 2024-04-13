@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Jost", sans-serif;
+    font-size: 1.3rem;
+}
+nav{
+    padding-block: .5vw;
+    background: #272727;
+}
+nav a{
+    padding-inline: .3rem;
+    border-radius: .7rem;
+    color: #ccc;
+    text-decoration: none;
+    margin-inline: .3rem;
+    transition: all .3s ease;
+}
+nav a:hover{
+    color: #fff;
+}
+.contenedor-info{
+    margin: 3rem;
+}

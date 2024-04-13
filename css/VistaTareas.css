@@ -1,0 +1,26 @@
+.ContenedorTareas{
+    margin: 1rem ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    grid-auto-rows: minmax(100px, auto);
+}
+.CartaTarea{
+    text-decoration: none;
+    color: #aaa;
+    border: 2px rgba(0, 0, 0, 0.209) solid;
+    width: 100%;
+    background: #444444;
+    padding: 1rem;
+    border-radius: 1vw;
+    box-shadow: 15px 15px 15px #aaa;
+}
+a{
+    cursor: pointer;
+}
+a:hover{
+    transform: scaleX(1.01) translateY(-3px);
+}
+p span{
+    color: white;
+}

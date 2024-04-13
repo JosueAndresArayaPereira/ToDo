@@ -1,0 +1,62 @@
+.contenedor{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    color: white;
+    width: 50%;
+    margin-top: 2rem;
+    border-radius: 2vh;
+    padding: 10px;
+    background: #494949;
+}
+form .campos{
+    margin: .5rem;
+    display: grid;
+    grid-template-columns: 1;
+}
+form input{
+    padding-inline: 1rem;
+    border-radius: .5rem;
+    border: 0;
+    width: 100%;
+    transition: all .3s ease;
+}
+form input:focus{
+    transform: scaleX(1.01);
+}
+form .campos button{
+    cursor: pointer;
+    border: 0;
+    padding-block: 5px;
+    border-radius: 10px;
+    margin-top: 1rem;
+    transition: all .3s ease;
+}
+form .campos button:hover{
+    transform: scaleX(1.01) translateY(-2px);
+}
+form .campos button:active{
+    transform: scaleX(1) translateY(0px);
+}
+form textarea{
+    padding-top: .5rem;
+    padding-inline: .5rem;
+    border-radius: .5rem;
+    border: 0;
+    width: 100%;
+    resize: none;
+    transition: all .3s ease;
+}
+form textarea:focus{
+    transform: scaleX(1.01);
+}
+form .estado{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}

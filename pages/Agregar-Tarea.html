@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/Agregar-Tarea.css">
+</head>
+<body>
+    <nav>
+        <a href="../pages/Agregar-Tarea.html">Nueva Tarea</a>
+        <a href="../pages/TareasVista.html">Tareas</a>
+        <a href="../pages/Configuracion.html">Configuracion</a>
+        <a href="../index.html">Inicio</a>
+    </nav>
+    <div class="contenedor">
+        <h1>Agregar Nueva Tarea</h1>
+        <form id="formulario-tarea">
+            <div class="campos">
+                <label >Nombre</label>
+                <input id="entrada-nombre" type="text" required>
+                <label >Fecha</label>
+                <input id="entrada-fecha" type="date" required>
+                <label>Descripcion</label>
+                <textarea name="" id="entrada-descripcion" cols="30" rows="10"></textarea>
+                <button type="submit">Agregar</button>
+            </div>
+        </form>
+    </div>
+    <script src="../js/AgregarTarea.js"></script>
+</body>
+</html>
